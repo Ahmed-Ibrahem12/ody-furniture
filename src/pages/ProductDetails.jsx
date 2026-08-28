@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useParams, useNavigate, Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
-import furnitureProducts from "../../data/furnituredata.js"; // تأكد أن الاسم مطابق لملفك بالملي
+import furnitureProducts from "../data/furnituredata.js";
 import { motion } from "framer-motion";
 import { addToCart } from "@/redux/slices/cartSlice";
 
